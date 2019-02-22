@@ -1,3 +1,5 @@
+
+
 nav ul {
   display: inline-block;
   list-style-type: none;
@@ -25,4 +27,18 @@ nav a:hover {
 
 nav .active{
   background-color: #43A671;
+}
+
+div {
+  width: 375px;
+  border: 25px solid green;
+  padding: 25px;
+}
+
+h1 {
+  font-family: arial;
+}
+
+p {
+  font-family: arial;
 }
