@@ -1,3 +1,1 @@
-# thekuhaku.github.io
-
-Personal website
+[Personal website](thekuhaku.github.io)
