@@ -44,45 +44,58 @@
     </div>
 </nav>
 
-<!-- First Container -->
+<!-- First Container (Grid) -->
 <div class="container-fluid bg-1 text-center">
-    <h3 class="margin">Nathan Jiang</h3>
-    <img src="./assets/ProfilePic.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Profile picture" width="350" height="350">
-    <h3>CS student. Loves math, chess, and video games.</h3>
+    <div class="row">
+        <div class="col-sm-6">
+            <h3 class="margin">Machine Learning Course</h3>
+            <p>Completed the Machine Learning Course from Stanford Online taught by Andrew Ng. Implemented procedures including linear regression, logistic regression, regularization, cost function, and backpropagation. Gained insight on defining problems, structuring projects, and hyperparameter tuning.</p>
+        </div>
+        <div class="col-sm-6">
+            <h3 class="margin">Deep Learning Specialization</h3>
+            <p>Completed the Deep Learning Specialization from deeplearning.ai taught by Andrew Ng. Focused on convolutional neural networks for computer vision tasks including classification, segmentation, and object detection. Worked with sequential models for tasks such as music generation and voice recognition.</p>
+        </div>
+    </div>
 </div>
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-    <h3 class="margin">About</h3>
-    <p>Third year student at University of Waterloo pursuing a Bachelor of Computer Science. Experience with object oriented programming, databases, operating systems, web development and user interfaces from course work. 3+ years of experience with machine learning from extracurricular activities. Researched and prototyped a working solution for first break picking in seismic analysis using fully convolutional networks and image segmentation at Key Seismic.</p>
-    <a href="https://www.linkedin.com/in/nathankuanjiang/" target=”_blank” class="fa fa-linkedin"></a>
-    <a href="https://github.com/thekuhaku" target=”_blank” class="fa fa-github"></a>
+<!-- Second Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="assets/mlcertificate.png" class="img-responsive margin" style="width:100%" alt="Machine Learning Certificate">
+        </div>
+        <div class="col-sm-6"> 
+            <img src="assets/dlcertificate.png" class="img-responsive margin" style="width:100%" alt="Deep Learning Specialization Certificate">
+        </div>
+    </div>
 </div>
 
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-    <h3 class="margin">Highlights</h3><br>
+<div class="container-fluid bg-1 text-center">
     <div class="row">
         <div class="col-sm-6">
-            <p>Independently created, trained, and deployed a deep neural network for automatic first break picking in seismic data at Key Seismic. Defined the problem of picking first breaks as a segmentation task.</p>
-        </div>
-        <div class="col-sm-6"> 
+            <h3 class="margin">Game Development</h3>
             <p>Working on an immersive RPG game with gacha and anime elements. Currently learning the process of game development using Unity, C#, and Blender while making simple games. Games so far: Guess Bot, Block Breaker, Laser Defense.</p>
+        </div>
+        <div class="col-sm-6">
+            <h3 class="margin">Flower Classifier</h3>
+            <p>Created a convolutional neural network to classify flower images. Dummy project for familiarizing with Tensorflow.</p>
         </div>
     </div>
 </div>
 
 <!-- Fourth Container (Grid) -->
-<div class="container-fluid bg-1 text-center">
+<div class="container-fluid bg-3 text-center">
     <div class="row">
         <div class="col-sm-6">
-            <img src="assets/fbp.png" class="img-responsive margin" style="width:100%" alt="First break picking image">
+            <img src="assets/guessbot.png" class="img-responsive margin" style="width:100%" alt="Guess Bot game">
         </div>
         <div class="col-sm-6"> 
-            <img src="assets/guessbot.png" class="img-responsive margin" style="width:100%" alt="Guess Bot game">
+            <img src="assets/flower.png" class="img-responsive margin" style="width:100%" alt="Flower Classification">
         </div>
     </div>
 </div>
+
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
