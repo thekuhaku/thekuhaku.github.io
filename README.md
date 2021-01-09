@@ -1,3 +1,1 @@
-# thekuhaku.github.io
-
-Personal website
+[Personal website](https://thekuhaku.github.io/index.html). Used bootstrap
